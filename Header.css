@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Gagalin';
+    src: url('./assets/font.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+    background: url("./assets/CapaMPB.jpg") no-repeat center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.title { 
+ font-family: 'Gagalin'; 
+ font-size: 23.5rem;
+ margin: 0;
+ margin-bottom: -40px;
+}
+
+.flex {
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p {
+    text-align: justify;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.justify {
+    width: 60vw;
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+.see-low {
+    display: flex;
+    margin: 10px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: white;
+    border: 4px white;
+}
+
+.see-low button {
+    width: 80%;
+    height: 40px;
+    margin-left: 40px;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.flex-btn {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+.quote-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  max-width: 260px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  border-left: 3px solid white;
+  padding-left: 12px;
+  z-index: 5;
+}
+
+.quote::before {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 6px;
+  color: white;
+}
+
+.author {
+  display: block;
+  margin-top: 6px;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 0.85rem;
+}
